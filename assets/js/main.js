@@ -1,4 +1,4 @@
-/* Indrico Jowensen Jasumin — portfolio interactions (no dependencies). */
+/* Indrico Jowensen — portfolio interactions (no dependencies). */
 (function () {
   'use strict';
 

@@ -1,4 +1,4 @@
-# Landing page — Indrico Jowensen Jasumin
+# Landing page — Indrico Jowensen
 
 Portfolio statis (HTML + CSS + JavaScript murni, tanpa framework dan tanpa build step).
 
