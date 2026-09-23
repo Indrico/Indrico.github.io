@@ -1,0 +1,15 @@
+# Private documents (CV, contracts, etc.) must never be committed
+*.pdf
+*.docx
+*.doc
+*.odt
+*.rtf
+.private/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+node_modules/
