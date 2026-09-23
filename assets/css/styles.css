@@ -7,7 +7,6 @@
 :root {
   --font-sans: "Geist", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
-  --font-serif: "Instrument Serif", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
 
   --bg: #060a13;
   --bg-2: #0a101d;
@@ -182,13 +181,8 @@ svg[viewBox="0 0 24 24"] {
 h1, h2, h3 { font-weight: 600; letter-spacing: -0.025em; line-height: 1.1; text-wrap: balance; }
 
 h1 em, h2 em {
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-weight: 400;
-  letter-spacing: -0.01em;
+  font-style: normal;
   color: var(--accent-text);
-  font-size: 1.08em;
-  line-height: 1;
 }
 
 .eyebrow {
@@ -346,7 +340,6 @@ h1 em, h2 em {
 }
 @media (max-width: 520px) {
   .header-cta { display: none; }
-  .brand-dim { display: none; }
 }
 
 /* ---------- Hero ---------- */
@@ -635,7 +628,7 @@ svg.pipe { width: 100%; height: auto; padding: 14px 12px 6px; overflow: visible;
 .about-body { display: grid; gap: 1.25rem; }
 .about-body p { font-size: 1.06rem; color: var(--text-2); }
 .about-body .about-lead { font-size: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem); line-height: 1.5; color: var(--text); letter-spacing: -0.01em; }
-.about-lead em { font-family: var(--font-serif); font-style: italic; font-size: 1.1em; color: var(--accent-text); }
+.about-lead em { font-style: normal; color: var(--accent-text); }
 
 .nda-note {
   display: inline-flex;
@@ -848,10 +841,10 @@ svg.pipe { width: 100%; height: auto; padding: 14px 12px 6px; overflow: visible;
     var(--bg);
 }
 .stack-note p {
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-size: 1.3rem;
-  line-height: 1.35;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
   color: var(--text-2);
 }
 
