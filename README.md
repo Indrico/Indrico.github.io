@@ -14,7 +14,12 @@ assets/js/main.js       Tema, menu mobile, animasi, simulasi pipeline, form kont
 assets/img/             favicon.svg, apple-touch-icon.png, og-image.png (gambar saat link dibagikan)
 .nojekyll               Supaya GitHub Pages menyajikan file apa adanya
 landing-page-indrico/   Redirect dari alamat lama (…/landing-page-indrico/) ke alamat baru
+AGENTS.md               Panduan & aturan untuk AI agent (Claude, Cursor, Copilot, Codex, dll.)
+CLAUDE.md               Mengarahkan Claude Code ke AGENTS.md
 ```
+
+> Mau minta AI agent mengubah website ini? Semua aturan penting (kerahasiaan, nama, gaya desain, cara deploy)
+> ada di `AGENTS.md`, dan kebanyakan AI agent membacanya otomatis.
 
 ## Preview di komputer sendiri
 
