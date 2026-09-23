@@ -2,7 +2,7 @@
 
 Portfolio statis (HTML + CSS + JavaScript murni, tanpa framework dan tanpa build step).
 
-- Live: https://indrico.github.io/landing-page-indrico/
+- Live: https://indrico.github.io/
 - Tema: biru, dark/light (otomatis mengikuti setting perangkat, bisa diganti lewat tombol di header)
 
 ## Struktur
@@ -13,6 +13,7 @@ assets/css/styles.css   Warna (design tokens), layout, animasi
 assets/js/main.js       Tema, menu mobile, animasi, simulasi pipeline, form kontak
 assets/img/             favicon.svg, apple-touch-icon.png, og-image.png (gambar saat link dibagikan)
 .nojekyll               Supaya GitHub Pages menyajikan file apa adanya
+landing-page-indrico/   Redirect dari alamat lama (…/landing-page-indrico/) ke alamat baru
 ```
 
 ## Preview di komputer sendiri
@@ -25,7 +26,7 @@ python3 -m http.server 8000
 
 ## Deploy gratis ke GitHub Pages
 
-Repo: `https://github.com/Indrico/landing-page-indrico`
+Repo: `https://github.com/Indrico/Indrico.github.io`
 
 1. **Login GitHub dari terminal** (sekali saja):
    ```bash
@@ -38,15 +39,14 @@ Repo: `https://github.com/Indrico/landing-page-indrico`
    ```
 3. **Aktifkan Pages:** buka repo di GitHub → **Settings → Pages** → *Build and deployment* →
    Source: **Deploy from a branch** → Branch: **main**, folder **/ (root)** → **Save**.
-4. Tunggu 1–2 menit, lalu buka **https://indrico.github.io/landing-page-indrico/**.
+4. Tunggu 1–2 menit, lalu buka **https://indrico.github.io/**.
 
 Setiap kali ada perubahan, cukup `git add -A && git commit -m "..." && git push`. Situs akan ter-update otomatis.
 
 > GitHub Pages gratis mensyaratkan repo **public**. Karena itu jangan pernah commit dokumen pribadi (lihat "Keamanan" di bawah).
 
-### Opsional: URL lebih pendek (`https://indrico.github.io/`)
-Ubah nama repo di **Settings → General → Repository name** menjadi `Indrico.github.io`, lalu ganti semua
-`https://indrico.github.io/landing-page-indrico/` di `index.html` menjadi `https://indrico.github.io/`.
+Situs ini tampil di root `https://indrico.github.io/` karena nama repo-nya `Indrico.github.io` (format khusus
+GitHub Pages untuk situs utama akun). Jangan ganti nama repo ini, karena alamat websitenya akan ikut berubah.
 
 ### Alternatif gratis lain
 Cloudflare Pages, Netlify, atau Vercel: pilih **Import from GitHub** → repo ini → *Build command* kosong →
