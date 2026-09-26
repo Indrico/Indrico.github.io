@@ -38,7 +38,7 @@ The repo, its git history and the website are all **public**. The owner is bound
 3. **Never commit documents** (`*.pdf`, `*.docx`, etc.). The owner keeps private documents in the working folder; they are git-ignored. Never `git add -f` them. Never deploy by uploading the folder to a drag-and-drop host.
 4. **Commit identity:** use the repo-local git identity, which is a GitHub noreply address. Don't override it.
 5. **Local pre-commit hook:** `.git/hooks/pre-commit` exists on the owner's machine but is not versioned. It blocks confidential terms, documents and the wrong identity. Never bypass it with `--no-verify`. On a fresh clone without the hook, ask the owner before committing any new work-history content.
-6. **Don't invent metrics or achievements.** Only use figures from the owner's CV: 6+ years, 100K+ transactions/day, millions of MySQL records, 3 channels (WhatsApp, SMS, Email), 4 industries.
+6. **Don't invent metrics or achievements.** Only use figures from the owner's CV: 6+ years, 100K+ transactions/day, millions of MySQL records, 3 channels (WhatsApp, SMS, Email), 4 industries; React modernization: React 18 + Vite, 55 peer-dependency conflicts resolved, 36 high/critical vulnerabilities eliminated, tests 76 → 170.
 7. **If something sensitive gets committed:** if it hasn't been pushed, rewrite the commit before pushing. If it has been pushed, stop and tell the owner.
 
 ## Content and tone

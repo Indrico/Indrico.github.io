@@ -50,7 +50,7 @@
     "url": "https://indrico.github.io/",
     "sameAs": ["https://github.com/Indrico"],
     "alumniOf": { "@type": "CollegeOrUniversity", "name": "Universitas Buddhi Dharma" },
-    "knowsAbout": ["Backend development", "PHP", "Laravel", "Node.js", "MySQL", "REST APIs", "Webhooks", "Message queues", "Omnichannel messaging", "Linux administration"]
+    "knowsAbout": ["Backend development", "PHP", "Laravel", "Node.js", "React", "MySQL", "REST APIs", "Webhooks", "Message queues", "Omnichannel messaging", "Linux administration"]
   }
   </script>
 </head>
@@ -367,7 +367,7 @@
         <header class="section-head reveal">
           <p class="eyebrow"><span>03</span> Selected work</p>
           <h2 id="work-title">Case studies, <em>anonymized</em></h2>
-          <p class="section-sub">Real production work, without the names. The only figures here are ones from systems I actually built and ran.</p>
+          <p class="section-sub">Real production work, without the names. The only figures here are ones from systems I actually worked on.</p>
         </header>
 
         <div class="cases">
@@ -466,24 +466,24 @@
           <article class="case reveal" style="--d:1">
             <div class="case-top">
               <span class="case-num">05</span>
-              <span class="case-kicker">Integrations · Security</span>
+              <span class="case-kicker">Frontend · Modernization</span>
             </div>
-            <h3>Enterprise integrations &amp; data protection</h3>
+            <h3>Modernizing a legacy React frontend</h3>
             <dl class="case-dl">
               <div>
                 <dt>Challenge</dt>
-                <dd>Enterprise clients in regulated industries need e-signatures, custom integrations and strong protection for sensitive data.</dd>
+                <dd>A React app still built on Create React App, which is no longer maintained, with a dependency tree that no longer resolved cleanly.</dd>
               </div>
               <div>
                 <dt>What I did</dt>
-                <dd>Contributed to enterprise e-signature integrations and client-specific system integrations, and implemented database- and application-level encryption.</dd>
+                <dd>Migrated it to React 18 with Vite, resolved 55 peer-dependency conflicts along the way, and expanded the test suite.</dd>
               </div>
               <div>
                 <dt>Outcome</dt>
-                <dd>Integrations fitted to each client's requirements, with sensitive data encrypted at both the database and application level.</dd>
+                <dd>36 high/critical vulnerabilities eliminated, and the test suite more than doubled, from 76 to 170 tests.</dd>
               </div>
             </dl>
-            <ul class="tags"><li>E-signature</li><li>Encryption</li><li>API integration</li></ul>
+            <ul class="tags"><li>React 18</li><li>Vite</li><li>Dependencies</li><li>Testing</li></ul>
           </article>
         </div>
       </div>
@@ -516,6 +516,7 @@
                 <li>Design queue-based async processing with workload-specific workers, a durable outbox, backlog monitoring and alerts.</li>
                 <li>Manage and optimize MySQL databases with millions of records. Implement database- and application-level encryption.</li>
                 <li>Migrated a legacy Ubuntu production system to KVM virtualization with minimal application changes.</li>
+                <li>Modernized a legacy CRA-based React app to React 18 with Vite, resolving 55 peer-dependency conflicts, eliminating 36 high/critical vulnerabilities and growing the test suite from 76 to 170 tests.</li>
               </ul>
               <ul class="chips chips-sm">
                 <li>Banking</li><li>Insurance</li><li>Logistics</li><li>Government</li>
@@ -569,7 +570,7 @@
           </div>
           <div class="stack-group">
             <h3>Frontend</h3>
-            <ul class="chips"><li>JavaScript</li><li>React</li><li>React Query</li><li>Tailwind CSS</li></ul>
+            <ul class="chips"><li>JavaScript</li><li>React</li><li>React Query</li><li>Vite</li><li>Tailwind CSS</li></ul>
           </div>
           <div class="stack-group">
             <h3>Tooling &amp; ops</h3>
